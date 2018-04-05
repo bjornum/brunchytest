@@ -17,7 +17,8 @@
             <div class="grid-navbar grey">
                 <div class="flex-it-up">
                     <div class="flex-align-self-center flex-align-content-end">
-                        <div class="logintext">log</div>
+                        <button onclick ="login()">login</button>
+                        <div id="loggingIn" class="logintext">log</div>
                     </div>
 
                 </div>
@@ -28,14 +29,16 @@
             <div class="grid-middle-part">
                 <div class="flex-it-up">
                     <div>
-                        <div>div nr 1 skal byttes med div 4</div>
-                        <div>div nr 2</div>
-                        <div>div skal forandres til blaa</div>
-                        <div>div nr 4 skal byttes med div 1</div>
-                        <div>div nr 5</div>
+                        <div id="divSwap" class="div1">div1</div>
+                        <div id="cdiv2" class="diiv2">div2</div>
+                        <div id="cdiv3" class="div3">div3</div>
+                        <div id="divSwap2" class="div4">div4</div>
+                        <div id="cdiv5" class="div5">div5</div>
                         <div>
-                            <button>button1</button>
-                            <button>button2</button>
+                            <button onclick ="swappy()">show and hide</button>
+                            <button onclick="swapToBlue()">make div2 blue</button>
+                            <button onclick="divToDiv()">swap 1-4 and back</button>
+                            <button onclick="ifToElse()">if else condition</button>
                         </div>
                     
                     </div>
@@ -53,5 +56,6 @@
     </div>
     <script src="../js/classlist.js"></script>
     <script src="../js/eventhandlers.js"></script>
+    <script src="../js/fix.js"></script>
 </body>
 </html>

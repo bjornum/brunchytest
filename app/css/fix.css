@@ -32,6 +32,11 @@
     height:100%;
 }
 
+
+
+/*oppgave 1 start*/
+
+/*navbar login to bjorn*/
 .logintext{
     display:flex;
     padding:20%;
@@ -40,4 +45,108 @@
     width:100%;
     background-color:white;
     margin-left:20%;
+}
+
+
+
+/*div1 to div 4 and vica versa*/
+
+        /*div 1 to div 4*/
+.div1{
+    display:flex;
+    width:3em;
+    height:3em;
+    background-color:green;
+    font-size:20px;
+    margin-bottom:1em;
+}
+
+.toDiv4{
+    display:flex;
+    width:3em;
+    height:3em;
+    background-color:green;
+    font-size:20px;
+    margin-bottom:1em;
+}
+
+        /*div 4 to div 1*/
+.div4{
+    display:flex;
+    width:3em;
+    height:3em;
+    background-color:green;
+    font-size:20px;
+    margin-bottom:1em;
+}
+
+.toDivOne{
+    display:flex;
+    width:3em;
+    height:3em;
+    background-color:green;
+    font-size:20px;
+    margin-bottom:1em;
+}
+
+
+/*div 2 swap color to blue*/
+
+.diiv2{
+    display:flex;
+    width:3em;
+    height:3em;
+    background-color:green;
+    font-size:20px;
+    margin-bottom:1em;
+}
+
+.div2blue{
+    display:block;
+    width:4em;
+    height:3em;
+    background-color:blue;
+    font-size: 20px;
+    margin-bottom:1em;
+}
+
+
+/*div 3 show and hide*/
+
+.div3{
+    display:none;
+    width:3em;
+    height:3em;
+    background-color:blue;
+    font-size:20px;
+    margin-bottom:1em;
+}
+
+.div3blue{
+    display:block;
+    width:4em;
+    height:3em;
+    background-color:red;
+    font-size: 20px;
+    margin-bottom:1em;
+}
+
+/*div 5*/
+
+.div5{
+    display:flex;
+    width:3em;
+    height:3em;
+    background-color:green;
+    font-size:20px;
+    margin-bottom:1em;
+}
+
+.div5red{
+    display:flex;
+    width:3em;
+    height:3em;
+    background-color:red;
+    font-size:20px;
+    margin-bottom:1em;
 }

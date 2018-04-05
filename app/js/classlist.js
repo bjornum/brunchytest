@@ -18,3 +18,4 @@ function classList_remove() {
     var element = document.getElementById("classLists");
     element.classList.remove("class to remove");
 }
+
