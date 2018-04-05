@@ -135,8 +135,9 @@
 
 .div5{
     display:flex;
-    width:3em;
-    height:3em;
+    flex-flow:column;
+    width:15em;
+    height:10em;
     background-color:green;
     font-size:20px;
     margin-bottom:1em;
@@ -144,9 +145,17 @@
 
 .div5red{
     display:flex;
-    width:3em;
-    height:3em;
+    flex-flow:column;
+    width:15em;
+    height:10em;
     background-color:red;
     font-size:20px;
     margin-bottom:1em;
+}
+
+#cdiv5 input {
+    font-size: 170%;
+    margin: .3em auto;
+    width: 90%;
+    height:80%;
 }

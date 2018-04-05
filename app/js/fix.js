@@ -22,17 +22,26 @@ function login(){
 /*div5  if and else conditions*/
 /**create css div5 and put cdiv5 to button **/
 
-function ifToElse(){
-    if("div5")
-    document.getElementById("cdiv5").classList.toggle("div5red");
-    else{
-    document.getElementById("cdiv5").classList.toggle("div5");
+function ifToElse() {
+    if (typeof(document.getElementById("cdiv5")) !== "undefined" && typeof(document.getElementById('div5input')) !== "undefined") {
+        var el = document.getElementById("cdiv5");
+    
+        var input = document.getElementById('div5input');
+        
+        if (input.value == "Trond") {
+            if (el.classList.contains("div5red") ) {
+                el.classList.remove("div5red");
+            }
+        } else {
+            el.classList.add("div5red");
+        
+        }  
     }
 }
 
 /*
 function ifToElse(){
-    var t = document.getElementsByClassName("cdiv5")
+    var t = document.getElementsByClassName("div5")
     if([0] == "div5" ){
         document.getElementById("cdiv5").classList.toggle("div5red");
         else{
